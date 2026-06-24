@@ -1,0 +1,21 @@
+# Frontend Dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.eslintcache
+
+# Backend Dependencies
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+*.pyc
+
+# IDEs and OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
