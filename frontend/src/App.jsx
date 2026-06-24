@@ -124,7 +124,7 @@ export default function App() {
         setJwtToken(data.token);
         setCurrentUser(data.user);
       } else {
-        alert("Invalid username! Try: sjenkins, mvance, anettleton");
+        alert("Invalid username! Try: sjenkins, mvance, arivera");
       }
     } catch (e) {
       console.error("Login failed:", e);

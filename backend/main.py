@@ -214,7 +214,7 @@ class RemediateRequest(BaseModel):
 USERS = {
     "sjenkins": {"name": "Sarah Jenkins", "role": "Network Administrator"},
     "mvance": {"name": "Marcus Vance", "role": "Security Auditor"},
-    "anettleton": {"name": "Andrew Nettleton", "role": "Release Manager"}
+    "arivera": {"name": "Alex Rivera", "role": "Release Manager"}
 }
 
 def get_current_user(authorization: str = Header(None)):
